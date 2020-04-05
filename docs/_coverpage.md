@@ -1,4 +1,4 @@
-<img width="160px" height="160px" style="border-radius: 50%" bor src="./img/IT-Developer.png“>
+<img width="160px" height="160px" style="border-radius: 50%" bor src="./img/IT-Developer.png">
 
 # IT开发者
 
