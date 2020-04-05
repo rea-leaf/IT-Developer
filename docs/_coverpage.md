@@ -1,12 +1,11 @@
-<img width="160px" height="160px" style="border-radius: 50%" bor src="./img/little-pig.png">
+<img width="160px" height="160px" style="border-radius: 50%" bor src="./img/IT-Developer.png>
 
-# 文档模板使用教程
+# IT开发者
 
-- 本文档模板是本着```开箱即用```的思想做的,为某些刚上手使用```docsify```但又不清楚如何制作属于自己的文档的小伙伴提供的一个模板
+- 当梳理和记录我多年来开发过程中积累的知识。把以前记录的笔记重新整理一遍，**温故而知新**，不仅记录技术相关的技术技能、工具使用技巧等，同时也分享一些工作生活中有趣的事。
 
-[<img src="https://img.shields.io/badge/Gitte-Welcome-yellow">](https://gitee.com/daskj/docs-template/tree/master/docs) [<img src="https://img.shields.io/badge/%E7%A4%BA%E4%BE%8B-%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE-important">](https://gitee.com/daskj/docs-template/tree/master/docs)
+[<img src="https://img.shields.io/badge/Gitte-Welcome-yellow">](https://gitee.com/daskj/docs-template/tree/master/docs) [<img src="https://img.shields.io/badge/%E7%A4%BA%E4%BE%8B-%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE-important">](https://github.com/rea-leaf/IT-Developer/tree/master/docs))
 
-
-[Gitte](https://gitee.com/daskj/docs-template/tree/master/docs)
+[github](https://github.com/rea-leaf/IT-Developer/tree/master/docs)
 [开始阅读](README.md)
 
