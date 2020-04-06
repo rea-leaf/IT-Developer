@@ -22,14 +22,6 @@
 <body>
   <div id="app"></div>
   <script>
-    var gitalkConfig = {
-      clientID: '084f309ea8bc385148bc',
-      clientSecret: 'fa4bff71adc7fbb44a7ca6deffecc9ec43e29301',
-      repo: 'Nodejs-Roadmap',
-      owner: 'q-angelo',
-      admin: ["q-angelo"],
-      distractionFreeMode: false
-    };
     window.$docsify = {
       name: 'IT开发者',
       repo: 'https://github.com/rea-leaf/IT-Developer/tree/master/docs',
@@ -48,32 +40,7 @@
         previousText: 'PREVIOUS',
         nextText: 'NEXT',
         crossChapter: true
-      },
-      plugins: [
-        function (hook, vm) {
-          hook.doneEach(function() {
-            var label, domObj, main, divEle, gitalk;
-            label = vm.route.path.split("/").pop();
-            domObj = Docsify.dom;
-            main = domObj.getNode("#main");
-            Array.apply(
-              null,
-              document.querySelectorAll("div.gitalk-container")
-            ).forEach(function(ele) {
-              ele.remove();
-            });
-            divEle = domObj.create("div");
-            divEle.id = "gitalk-container-" + label;
-            divEle.className = "gitalk-container";
-            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
-            domObj.appendTo(domObj.find(".content"), divEle);
-            gitalk = new Gitalk(
-              Object.assign(gitalkConfig, { id: !label ? "home" : label })
-            );
-            gitalk.render("gitalk-container-" + label);
-          });
-        }
-      ]
+      }
     }
   </script>
   
