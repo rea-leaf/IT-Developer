@@ -172,13 +172,3 @@ window.$docsify = {
 };
 ```
 - 启动服务，访问 [**http://localhost:3000/#/en-us**](http://localhost:3000/#/en-us)
-
-# 更多文档平台推荐
-
-> 以下是我平常使用的一些好用文档平台和工具,在这里分享一波
-
-- [EOLINKER API一站式服务](https://www.eolinker.com/#/)(**强烈推荐**)
-- [Markdown表格在线制作](http://www.tablesgenerator.com/markdown_tables)
-- [Apizza API接口管理](https://apizza.net/pro/#/)
-- [易文档](https://easydoc.xyz/#/)(**强烈推荐**)
-- [石墨文档](https://shimo.im/welcome)
